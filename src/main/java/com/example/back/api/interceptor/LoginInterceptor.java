@@ -17,7 +17,9 @@ public class LoginInterceptor implements HandlerInterceptor {
         User user = (User) session.getAttribute("IsLogin");
 
         if (user == null) {
-            throw new IllegalStateException("You don't have access.");
+            response.sendError(400, "You don't have access.");
+            //response.sendRedirect("로그인 view 경로");
+            return false;
         }
 
         return true;

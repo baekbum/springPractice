@@ -1,4 +1,4 @@
-package com.example.back.api.config;
+package com.example.back.config;
 
 import com.example.back.api.interceptor.LoginInterceptor;
 import lombok.RequiredArgsConstructor;
