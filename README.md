@@ -1,1 +1,2 @@
 - 0819 session 및 interceptor 작업
+- 0820 security config 파일 추가, password 암호화 추가
