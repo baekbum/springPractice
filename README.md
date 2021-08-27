@@ -1,2 +1,4 @@
 - 0819 session 및 interceptor 작업
 - 0820 security config 파일 추가, password 암호화 추가
+- 0824 웹소켓 처리를 위한 config, controller 및 message 클래스 정의
+- 0827 RestTemplate를 사용하여 spring에서 Http post 호출
