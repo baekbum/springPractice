@@ -2,3 +2,5 @@
 - 0820 security config 파일 추가, password 암호화 추가
 - 0824 웹소켓 처리를 위한 config, controller 및 message 클래스 정의
 - 0827 RestTemplate를 사용하여 spring에서 Http post 호출
+- 0901 Redis 연동
+- 0902 자바 클래스 직렬화 / 역직렬화 ( Redis 연동)
