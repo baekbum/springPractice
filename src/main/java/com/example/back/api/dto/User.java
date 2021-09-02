@@ -3,14 +3,15 @@ package com.example.back.api.dto;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 
-import java.util.Base64;
+import java.io.Serializable;
 
 @Setter
 @Getter
 @RequiredArgsConstructor
-public class User {
+public class User implements Serializable {
+    private static final long serialVersionUID = 1L;
+
     private final String id;
     private final String password;
 
